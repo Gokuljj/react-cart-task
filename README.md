@@ -36,29 +36,44 @@ This is a ReactJS application demonstrating product and cart functionality using
 
 ## **Folder Structure**
 ```
-src/
-|-- assets/
-|   |-- images/               # Static assets like images
-|-- components/
-|   |-- About.jsx             # About section
-|   |-- Categories.jsx        # Product categories component
-|   |-- Checkout.jsx          # Checkout page
-|   |-- Filters.jsx           # Product filters
-|   |-- Footer.jsx            # Footer component
-|   |-- Header.jsx            # Header and navigation bar
-|   |-- Hero.jsx              # Hero section
-|   |-- Products.jsx          # Product listing component
-|   |-- Features.jsx          # Features section
-|-- pages/
-|   |-- Home.jsx              # Home page layout
-|   |-- Product.jsx           # Individual product view
-|   |-- CategoryProducts.jsx  # Products by category
-|-- cart/
-|   |-- Cart.jsx              # Main cart functionality
-|-- App.jsx                   # Main app component
-|-- App.css                   # Global styles
-|-- index.jsx                 # Entry point
-|-- main.jsx                  # React DOM render
+## Folder Structure
+
+```
+/src
+  /assets
+    /images            # Contains image assets
+  /components
+    /About
+      About.jsx        # About section component
+    /Categories
+      Categories.jsx   # Categories component
+    /Checkout
+      Checkout.jsx     # Checkout process component
+    /Filters
+      Filters.jsx      # Filters for products
+    /Footer
+      Footer.jsx       # Footer component
+    /Header
+      Header.jsx       # Header component
+    /Hero
+      Hero.jsx         # Hero section
+    /Products
+      Products.jsx     # Main product list component
+    /Features
+      Features.jsx     # Features section component
+  /Cart
+    /Cart
+      Cart.jsx         # Displays cart functionality
+  /Pages
+    /Home
+      Home.jsx         # Home page of the application
+    /Product
+      Product.jsx      # Product detail page
+    /CategoryProducts
+      CategoryProducts.jsx # Displays products by category
+  App.jsx              # Main App component with routes
+  main.jsx             # Application entry point
+  index.css            # Global styles
 ```
 
 ---
